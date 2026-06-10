@@ -2,6 +2,8 @@ name: AI inference example
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
